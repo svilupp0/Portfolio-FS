@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(212, 180, 180);
+}
+h1{
+    color: #960000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+p{
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
