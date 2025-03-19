@@ -6,10 +6,14 @@ h1{
     color: #960000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    position: absolute;
+    bottom: 50px;
 }
 p{
     background-color: rgb(189, 214, 99);
     font-style: oblique;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
+    position: absolute;
+    bottom: 10px;
 }
