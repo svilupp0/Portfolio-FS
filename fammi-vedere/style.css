@@ -18,18 +18,26 @@ ul{
 }
 
 .immagine-dx {
-    width: 20%; /* Imposta la larghezza della tabella */
+    width: 30%; /* Imposta la larghezza della tabella */
     height: auto;
     margin-left: 5px; /* Distanza tra l'immagine e la tabella */
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 table {
-    width: 30%; /* Imposta la larghezza della tabella */
+    width: 20%; /* Imposta la larghezza della tabella */
     float: left;
 }
 th, td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: left;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    position: absolute;
+    bottom: 50px;
+    left: 10px; /* Aggiunto per allinearlo a sinistra */
 }
