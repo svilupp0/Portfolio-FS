@@ -7,16 +7,18 @@ h1{
 }
 h2{
     margin-left: 10px;
-    color: rgb(5, 4, 48);
+    color: rgb(2, 0, 99);
 }
-p, div, ul{
+p, p1, div, ul{
     margin-left: 20px;
     font-size: 24px;
 }
 .foto_profilo{
     margin-left: 20px;
+    border-style: solid;
+    border-color: rgb(2, 0, 99);
     border-radius: 50%;
-    width: 300px;
+    width: 250px;
     max-width: 100%; height: auto;
 }
 .foto_linkedin{
@@ -28,4 +30,8 @@ p, div, ul{
 footer{
     margin-left: 20px;
     font-size: 24px;
+}
+.container{
+    display: flex;
+    align-items: center;
 }
