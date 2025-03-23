@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(179, 201, 221);
+}
+h1{
+    margin-left: 20px;
+    color: rgb(2, 0, 99);
+}
+h2{
+    margin-left: 10px;
+    color: rgb(5, 4, 48);
+}
+p, div, ul{
+    margin-left: 20px;
+    font-size: 24px;
+}
+.foto_profilo{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 300px;
+    max-width: 100%; height: auto;
+}
+.foto_linkedin{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 40px;
+    max-width: 100%; height: auto;
+}
+footer{
+    margin-left: 20px;
+    font-size: 24px;
+}
