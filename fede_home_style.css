@@ -1,20 +1,26 @@
 body{
     background-color: rgb(179, 201, 221);
+    margin: 0;
+    padding: 0;
 }
 h1{
-    margin-left: 20px;
+    margin-left: 60px;
     color: rgb(2, 0, 99);
 }
 h2{
-    margin-left: 10px;
+    margin-left: 30px;
     color: rgb(2, 0, 99);
 }
-p, p1, div, ul{
-    margin-left: 20px;
+p, div, ul{
+    margin-left: 40px;
+    font-size: 24px;
+}
+.titolo{
+    margin-left: 30px;
     font-size: 24px;
 }
 .foto_profilo{
-    margin-left: 20px;
+    margin-left: 30px;
     border-style: solid;
     border-color: rgb(2, 0, 99);
     border-radius: 50%;
@@ -27,11 +33,23 @@ p, p1, div, ul{
     width: 40px;
     max-width: 100%; height: auto;
 }
-footer{
+.footer{
+    list-style: none; /* Rimuove i pallini */
+    padding: 0; /* Elimina il padding sinistro */
+    margin: 0; /* Opzionale, riduce lo spazio attorno */
     margin-left: 20px;
-    font-size: 24px;
+}
+footer {
+    background-color: rgb(143, 164, 209);
+    margin: 0; /* Rimuove i margini */
+    padding: 20px 0; /* Aggiunge spazio interno verticale */
+    width: 100%; /* Assicura che occupi tutta la larghezza */
 }
 .container{
     display: flex;
     align-items: center;
+}
+section{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
