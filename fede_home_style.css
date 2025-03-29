@@ -3,7 +3,14 @@ body{
     margin: 0;
     padding: 0;
 }
+header, footer{
+    background-color: rgb(150, 168, 206);
+    margin: 0; /* Rimuove i margini */
+    padding: 20px 0; /* Aggiunge spazio interno verticale */
+    width: 100%; /* Assicura che occupi tutta la larghezza */
+}
 h1{
+    text-align: center;
     margin-left: 60px;
     color: rgb(2, 0, 99);
 }
@@ -33,23 +40,21 @@ p, div, ul{
     width: 40px;
     max-width: 100%; height: auto;
 }
-.footer{
+.footer-style{
     list-style: none; /* Rimuove i pallini */
     padding: 0; /* Elimina il padding sinistro */
     margin: 0; /* Opzionale, riduce lo spazio attorno */
     margin-left: 20px;
 }
-footer {
-    background-color: rgb(143, 164, 209);
-    margin: 0; /* Rimuove i margini */
-    padding: 20px 0; /* Aggiunge spazio interno verticale */
-    width: 100%; /* Assicura che occupi tutta la larghezza */
-}
-.container{
+.container {
     display: flex;
-    align-items: center;
+    align-items: center;  /* Allinea verticalmente */
+    justify-content: center; /* Centra orizzontalmente */
+    text-align: center; /* Centra il testo */
+    gap: 20px; /* Distanza tra immagine e testo */
 }
 section{
+    text-align: justify;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
