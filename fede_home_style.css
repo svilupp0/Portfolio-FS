@@ -4,13 +4,28 @@ body{
     padding: 0;
 }
 header{
-    background-color: rgb(168, 179, 226);
     margin: 0; /* Rimuove i margini */
     padding: 20px 0; /* Aggiunge spazio interno verticale */
     width: 100%; /* Assicura che occupi tutta la larghezza */
+    position: relative;
+    min-height: 200px;
+}
+header::before{
+    position: absolute;
+    content: "";
+    background-image: url(img/osteopathic-doctor-checking-female-patient-s-leg-movement.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%; /* Assicura che occupi tutta la larghezza */
+    height: 100%;
+    filter: blur(3px);
+    opacity: 0.5;
+    z-index: -1;
 }
 .menu-header{
-    background-color: rgb(150, 168, 206);
     padding: 1% 2%;
     border: 2px rgb(2, 0, 99) solid;
 }
