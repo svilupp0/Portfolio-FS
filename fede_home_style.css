@@ -3,15 +3,33 @@ body{
     margin: 0;
     padding: 0;
 }
-header, footer{
-    background-color: rgb(150, 168, 206);
+header{
+    background-color: rgb(168, 179, 226);
     margin: 0; /* Rimuove i margini */
     padding: 20px 0; /* Aggiunge spazio interno verticale */
     width: 100%; /* Assicura che occupi tutta la larghezza */
 }
+.menu-header{
+    background-color: rgb(150, 168, 206);
+    padding: 1% 2%;
+    border: 2px rgb(2, 0, 99) solid;
+}
+.menu-header ul{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.menu-header ul li a{
+    font-size: 90%;
+    text-decoration: none;
+    color: rgb(2, 0, 99);
+}
 h1{
+    padding: 2% 0;
+    font-size: 350%;
     text-align: center;
-    margin-left: 60px;
     color: rgb(2, 0, 99);
 }
 h2{
@@ -40,12 +58,6 @@ p, div, ul{
     width: 40px;
     max-width: 100%; height: auto;
 }
-.footer-style{
-    list-style: none; /* Rimuove i pallini */
-    padding: 0; /* Elimina il padding sinistro */
-    margin: 0; /* Opzionale, riduce lo spazio attorno */
-    margin-left: 20px;
-}
 .container {
     display: flex;
     align-items: center;  /* Allinea verticalmente */
@@ -57,4 +69,16 @@ section{
     text-align: justify;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    background-color: rgb(150, 168, 206);
+    margin: 0; /* Rimuove i margini */
+    padding: 20px 0; /* Aggiunge spazio interno verticale */
+    width: 100%; /* Assicura che occupi tutta la larghezza */
+}
+footer ul{
+    list-style: none; /* Rimuove i pallini */
+    padding: 0; /* Elimina il padding sinistro */
+    margin: 0; /* Opzionale, riduce lo spazio attorno */
+    margin-left: 20px;
 }
