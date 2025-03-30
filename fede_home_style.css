@@ -47,10 +47,6 @@ h1{
     text-align: center;
     color: rgb(2, 0, 99);
 }
-h2{
-    margin-left: 30px;
-    color: rgb(2, 0, 99);
-}
 p, div, ul{
     margin-left: 40px;
     font-size: 24px;
@@ -80,6 +76,10 @@ p, div, ul{
     text-align: center; /* Centra il testo */
     gap: 20px; /* Distanza tra immagine e testo */
 }
+.container p {
+    font-size: 110%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 section{
     text-align: justify;
     font-size: 25px;
@@ -88,7 +88,7 @@ section{
 footer{
     background-color: rgb(150, 168, 206);
     margin: 0; /* Rimuove i margini */
-    padding: 20px 0; /* Aggiunge spazio interno verticale */
+    padding: 50px 0; /* Aggiunge spazio interno verticale */
     width: 100%; /* Assicura che occupi tutta la larghezza */
 }
 footer ul{
@@ -96,4 +96,13 @@ footer ul{
     padding: 0; /* Elimina il padding sinistro */
     margin: 0; /* Opzionale, riduce lo spazio attorno */
     margin-left: 20px;
+}
+main{
+    margin: 5% 2%;
+}
+main h2{
+    margin-left: 30px;
+    color: rgb(2, 0, 99);
+    font-size: 180%;
+    font-weight: 100;
 }
