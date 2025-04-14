@@ -1,10 +1,8 @@
 body{
     background: linear-gradient(0deg, rgba(199,221,226,1) 2%, rgba(97,145,194,1) 5%, rgba(145,193,203,1) 100%);
-    padding: 0;
 }
 header{
     margin: 0; /* Rimuove i margini */
-    padding: 20px 0; /* Aggiunge spazio interno verticale */
     width: 100%; /* Assicura che occupi tutta la larghezza */
     position: relative;
     min-height: 200px;
@@ -99,7 +97,6 @@ footer{
 }
 footer ul{
     list-style: none; /* Rimuove i pallini */
-    padding: 0; /* Elimina il padding sinistro */
     margin: 0; /* Opzionale, riduce lo spazio attorno */
     margin-left: 20px;
 }

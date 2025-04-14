@@ -1,18 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
 body{
-    background-color: rgb(151, 134, 134);
+    background-color: rgb(149, 192, 202);
 }
+
+header{
+    max-width: 80%;
+    margin: 20px auto;
+    position: relative;
+    min-height: 200px;
+    box-shadow: 0 0 50px 10px rgb(121, 157, 223);
+}
+
+header::before{
+    position: absolute;
+    content: "";
+    background-image: url(img/osteopathic-doctor-checking-female-patient-s-leg-movement.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%; /* Assicura che occupi tutta la larghezza */
+    height: 100%;
+    filter: blur(4px);
+    opacity: 0.5;
+    z-index: -1;
+}
+
 h1{
-    color: #960000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    padding: 1% 0;
+    font-size: 350%;
+    text-align: center;
+    color: rgb(2, 0, 99);
 }
-p{
-    font-style: oblique;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+
+p, div, ul{
+    font-size: 24px;
 }
-ul{
-    font-style: oblique;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+
+.titolo{
+    font-size: 24px;
+}
+
+.foto_profilo{
+    margin-left: 30px;
+    border-style: solid;
+    border-color: rgb(2, 0, 99);
+    border-radius: 50%;
+    width: 250px;
+    max-width: 100%; height: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;  /* Allinea verticalmente */
+    justify-content: center; /* Centra orizzontalmente */
+    text-align: center; /* Centra il testo */
+    gap: 50px; /* Distanza tra immagine e testo */
+}
+
+.container p {
+    font-size: 110%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#citazione{
+    padding: 2%;
+}
+
+.curriculum {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.curriculum ul{
+    list-style: none;
+}
+
+.curriculum ul li a{
+    text-decoration: none;
 }
