@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: linear-gradient(0deg, rgba(199,221,226,1) 2%, rgba(97,145,194,1) 5%, rgba(145,193,203,1) 100%);
 }
@@ -22,40 +27,44 @@ header::before{
     opacity: 0.6;
     z-index: -1;
 }
-.menu-header{
-    text-transform: uppercase;
-    padding: 0 2%;
+
+.portfolio-curriculum {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    font-size: 20px;
 }
-.menu-header ul{
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    justify-content: right;
-    gap: 1%;
+
+.portfolio-curriculum ul{
     list-style: none;
-    letter-spacing: -1px;
 }
-.menu-header ul li a{
-    font-size: 65%;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
+
+.portfolio-curriculum li{
+    display: inline;
+}
+
+.portfolio-curriculum li a{
     text-decoration: none;
-    color: rgb(2, 0, 99);
+    display: inline;
 }
+
+.active{
+    background-color: rgb(121, 157, 223);
+}
+
 h1{
     padding: 1% 0;
     font-size: 350%;
     text-align: center;
     color: rgb(2, 0, 99);
 }
-p, div, ul{
-    margin-left: 40px;
-    font-size: 24px;
-}
+
 .titolo{
     margin-left: 30px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
+
 .foto_profilo{
     margin-left: 30px;
     border-style: solid;
@@ -77,10 +86,8 @@ p, div, ul{
     text-align: center; /* Centra il testo */
     gap: 20px; /* Distanza tra immagine e testo */
 }
-.container p {
-    font-size: 110%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
+
 section{
     text-align: justify;
     font-size: 25px;
@@ -105,8 +112,52 @@ main{
     justify-content: center;
 }
 main h2{
+    padding: 15px;
     margin-left: 30px;
     color: rgb(2, 0, 99);
-    font-size: 180%;
+    font-size: 2rem;
     font-weight: 100;
 }
+
+.formation li{
+    font-size: 21px;
+    padding: 8px;
+    list-style-type: none;
+}
+
+.research_experience{
+    font-size: 21px;
+}
+
+.internships_id{
+    font-size: 21px;
+}
+
+.science_production{
+    font-size: 21px;
+}
+
+.work_experience{
+    font-size: 21px;
+}
+
+.other-work{
+    font-size: 20px;
+}
+
+.courses {
+    font-size: 21px;
+    padding: 10px;
+}
+.courses li{
+    list-style-type: none;
+    padding: 8px;
+}
+
+main ul li{
+    padding: 10px;
+}
+main summary{
+    padding: 10px;
+}
+

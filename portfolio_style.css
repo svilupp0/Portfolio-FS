@@ -9,7 +9,7 @@ body{
 
 header{
     max-width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     position: relative;
     min-height: 200px;
     box-shadow: 0 0 50px 10px rgb(121, 157, 223);
@@ -38,10 +38,6 @@ h1{
     color: rgb(2, 0, 99);
 }
 
-p, div, ul{
-    font-size: 24px;
-}
-
 .titolo{
     font-size: 24px;
 }
@@ -60,13 +56,9 @@ p, div, ul{
     align-items: center;  /* Allinea verticalmente */
     justify-content: center; /* Centra orizzontalmente */
     text-align: center; /* Centra il testo */
-    gap: 50px; /* Distanza tra immagine e testo */
+    gap: 20px; /* Distanza tra immagine e testo */
 }
 
-.container p {
-    font-size: 110%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 section{
     text-align: justify;
@@ -78,16 +70,41 @@ section{
     padding: 2%;
 }
 
-.curriculum {
+.portfolio-curriculum {
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 10px;
+    top: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
 
-.curriculum ul{
+.portfolio-curriculum ul{
     list-style: none;
 }
 
-.curriculum ul li a{
+.portfolio-curriculum li{
+    display: inline;
+}
+
+.portfolio-curriculum li a{
     text-decoration: none;
+    display: inline;
+}
+
+.progetti section{
+    display: flex;
+    justify-content: center; /* centra le immagini orizzontalmente */
+    gap: 20px; /* spazio tra le immagini */
+    flex-wrap: wrap; /* opzionale: fa andare le immagini a capo su schermi piccoli */
+}
+
+.progetti h2{
+    padding: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(2, 0, 99);
+}
+
+.active{
+    background-color: rgb(121, 157, 223);
 }
