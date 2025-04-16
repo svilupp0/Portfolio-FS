@@ -4,7 +4,7 @@
 }
   
 body{
-    background-color: rgb(137, 174, 182);
+    background-color: rgb(85, 131, 143);
 }
 
 .portfolio-curriculum {
@@ -12,7 +12,7 @@ body{
     font-size: clamp(0.8rem, 1vw, 1.2rem);
     background-color: rgb(67, 67, 141);
     text-align: right;
-    padding: 15px;
+    padding: 2%;
 }
 
 .portfolio-curriculum ul{
@@ -24,22 +24,27 @@ body{
 }
 
 .portfolio-curriculum li a{
-    color: antiquewhite;
+    color: rgb(255, 235, 210);
     text-decoration: none;
-    padding: 18px;
+    padding: 2%;
     text-transform: uppercase;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.active{
-    background-color: rgb(185, 193, 207);
+.active {
+    color: rgb(104, 104, 134) !important;
+}
+
+.portfolio-curriculum a:hover {
+    color: rgb(104, 104, 134);
 }
 
 header{
     max-width: 100%;
     margin: 0 auto;
     position: relative;
-    height: 700px;
+    height: auto;
+    text-align: center;
 }
 
 header::before{
@@ -59,7 +64,7 @@ header::before{
 }
 
 h1{
-    padding: 3% 0;
+    padding: 2% 0;
     font-size: clamp(1.5rem, 2.8vw, 3rem);
     text-align: center;
     color: rgb(2, 0, 99);
@@ -70,6 +75,7 @@ h1{
 
 .titolo{
     font-size: clamp(1rem, 1.5vw, 2rem);
+    max-width: 40%;
 }
 
 .foto_profilo{
@@ -99,6 +105,10 @@ h1{
     margin: 0 auto;
 }
 
+.material-icons{
+    text-decoration: none;
+    color: rgb(2, 0, 99);
+}
 
 .progetti h2{
     margin: 200px auto 40px auto;

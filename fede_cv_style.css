@@ -9,10 +9,10 @@ body{
 
 .portfolio-curriculum {
     position: relative;
-    font-size: 20px;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
     background-color: rgb(67, 67, 141);
     text-align: right;
-    padding: 15px;
+    padding: 2%;
 }
 
 .portfolio-curriculum ul{
@@ -24,16 +24,19 @@ body{
 }
 
 .portfolio-curriculum li a{
-    color: antiquewhite;
+    color: rgb(255, 235, 210);
     text-decoration: none;
-    padding: 18px;
+    padding: 2%;
     text-transform: uppercase;
-    font-size: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.active{
-    background-color: rgb(121, 157, 223);
+.active {
+    color: rgb(104, 104, 134) !important;
+}
+
+.portfolio-curriculum a:hover {
+    color: rgb(104, 104, 134);
 }
 
 h1{
