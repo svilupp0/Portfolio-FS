@@ -14,37 +14,9 @@ body{
     padding: 0 10px;
     background-color: rgba(18, 18, 126, 0.664) ;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
-.language {
-    padding: 10px;
-    font-size: clamp(0.8rem, 1vw, 1.2rem);
-}
-
-.language ul{
-    padding: 0;
-    gap: 15px;
-    display: flex;
-    list-style: none;
-}
-
-.language li a{
-    color: rgb(255, 235, 210);
-    text-decoration: none;
-    padding: 2%;
-    text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.active-language {
-    color: rgb(104, 104, 134) !important;
-}
-
-.language a:hover {
-    color: rgb(104, 104, 134);
-}
- 
 .portfolio-curriculum {
     padding: 10px;
     font-size: clamp(0.8rem, 1vw, 1.2rem);
