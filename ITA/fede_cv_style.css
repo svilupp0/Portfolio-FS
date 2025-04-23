@@ -60,39 +60,40 @@ main{
     font-family: "Raleway", sans-serif;
     font-size: clamp(3rem, 1.4vw, 1.6rem);
     letter-spacing: -2px;
+}
 
+.elenco-my-resume{
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 .my-resume-menu {
-    font-family: "Raleway", sans-serif;
-    font-size: clamp(2rem, 1.4vw, 1.6rem);
     width: 50%;
-    letter-spacing: 5;
 }
 
 .my-resume-menu ul{
-    font-size: clamp(1rem, 1vw, 1.2rem);
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
     list-style-type: circle;
 }
-
-.my-resume-menu summary{
-    cursor: pointer;
+.my-resume-menu p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
 }
 
 .my-resume-menu summary:hover{
     color: rgb(18, 18, 126);
 }
 
-
-.sotto-details{
-    font-size: clamp(1rem, 1vw, 1.2rem);
-}
 .sotto-summary{
-    font-size: clamp(1.3rem, 1vw, 1.2rem);
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
     padding: 0px 50px;
 }
 .science_production{
-    font-size: clamp(1rem, 1vw, 1.2rem);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
 }
 
 .link-production{
@@ -137,22 +138,40 @@ footer a{
     main{
         flex-direction: column;
         align-items: center;
-        width: 100%;
         display: block;
-        margin: 40px;
+        margin: 30px;
+    }
+    .my-resume-title{
+        width: 100%;
     }
 
     .my-resume-title h1{
-        width: 100%;
-        font-size: 2rem;
-        letter-spacing: -2px;
+        font-size: 38px;
+        letter-spacing: -3px;
     }
-   
-    .my-resume-menu {
+    
+    .my-resume-menu{
         width: 100%;
-        font-size: 1rem;
     }
 
+    .elenco-my-resume{
+        font-size: 25px;
+    }
+    
+    .my-resume-menu ul{
+        font-size: 15px;
+    }
+    .my-resume-menu p{
+        font-size: 15px;
+    }
+    
+    .sotto-summary{
+        font-size: 18px;
+    }
+    .science_production{
+        font-size: 18px;
+    }
+    
     footer {
         font-size: 0.9rem;
     }
