@@ -12,12 +12,11 @@ body{
 
 .intestazione{
     padding: 0 10px;
-    background-color: rgba(18, 18, 126, 0.664) ;
+    background-color: rgb(44, 44, 138) ;
     display: flex;
     justify-content: right;
 }
 
- 
 .portfolio-curriculum {
     padding: 10px;
     font-size: clamp(0.8rem, 1vw, 1.2rem);
@@ -35,7 +34,7 @@ body{
     text-decoration: none;
     padding: 2%;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .active {
@@ -44,14 +43,6 @@ body{
 
 .portfolio-curriculum a:hover {
     color: rgb(104, 104, 134);
-}
-
-.foto_linkedin{
-    margin-left: 20px;
-    border-radius: 50%;
-    width: 40px;
-    max-width: 100%; 
-    height: auto;
 }
 
 main{
@@ -66,40 +57,47 @@ main{
 }
 
 .my-resume-title h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: clamp(3rem, 1.4vw, 1.6rem);
-    letter-spacing: -4px;
+    letter-spacing: -2px;
+}
+
+.elenco-my-resume{
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 .my-resume-menu {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: clamp(2rem, 1.4vw, 1.6rem);
     width: 50%;
 }
 
 .my-resume-menu ul{
-    font-size: clamp(1rem, 1vw, 1.2rem);
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
     list-style-type: circle;
 }
-
-.my-resume-menu summary{
-    cursor: pointer;
+.my-resume-menu p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
 }
 
 .my-resume-menu summary:hover{
     color: rgb(18, 18, 126);
 }
 
-
-.sotto-details{
-    font-size: clamp(1rem, 1vw, 1.2rem);
-}
 .sotto-summary{
-    font-size: clamp(1.3rem, 1vw, 1.2rem);
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
     padding: 0px 50px;
 }
 .science_production{
-    font-size: clamp(1rem, 1vw, 1.2rem);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+.link-production{
+    color: rgb(18, 18, 126);
 }
 
 footer {
@@ -115,4 +113,66 @@ footer ul{
 footer a{
     color: rgb(18, 18, 126);
     font-weight: 600;
+}
+
+.foto_linkedin{
+    border-radius: 50%;
+    width: 40px;
+    max-width: 100%; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .intestazione {
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .portfolio-curriculum ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+        display: block;
+        margin: 30px;
+    }
+    .my-resume-title{
+        width: 100%;
+    }
+
+    .my-resume-title h1{
+        font-size: 38px;
+        letter-spacing: -3px;
+    }
+    
+    .my-resume-menu{
+        width: 100%;
+    }
+
+    .elenco-my-resume{
+        font-size: 25px;
+    }
+    
+    .my-resume-menu ul{
+        font-size: 15px;
+    }
+    .my-resume-menu p{
+        font-size: 15px;
+    }
+    
+    .sotto-summary{
+        font-size: 18px;
+    }
+    .science_production{
+        font-size: 18px;
+    }
+    
+    footer {
+        font-size: 0.9rem;
+    }
 }

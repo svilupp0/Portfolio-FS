@@ -12,7 +12,7 @@ body{
 
 .intestazione{
     padding: 0 10px;
-    background-color: rgba(18, 18, 126, 0.664) ;
+    background-color: rgb(44, 44, 138) ;
     display: flex;
     justify-content: right;
 }
@@ -34,7 +34,7 @@ body{
     text-decoration: none;
     padding: 2%;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .active {
@@ -43,14 +43,6 @@ body{
 
 .portfolio-curriculum a:hover {
     color: rgb(104, 104, 134);
-}
-
-.foto_linkedin{
-    margin-left: 20px;
-    border-radius: 50%;
-    width: 40px;
-    max-width: 100%; 
-    height: auto;
 }
 
 main{
@@ -65,15 +57,17 @@ main{
 }
 
 .my-resume-title h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: clamp(3rem, 1.4vw, 1.6rem);
-    letter-spacing: -4px;
+    letter-spacing: -2px;
+
 }
 
 .my-resume-menu {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: clamp(2rem, 1.4vw, 1.6rem);
     width: 50%;
+    letter-spacing: 5;
 }
 
 .my-resume-menu ul{
@@ -101,6 +95,10 @@ main{
     font-size: clamp(1rem, 1vw, 1.2rem);
 }
 
+.link-production{
+    color: rgb(18, 18, 126);
+}
+
 footer {
     padding: 0 10px;
     margin-top: auto;
@@ -114,4 +112,48 @@ footer ul{
 footer a{
     color: rgb(18, 18, 126);
     font-weight: 600;
+}
+
+.foto_linkedin{
+    border-radius: 50%;
+    width: 40px;
+    max-width: 100%; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .intestazione {
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .portfolio-curriculum ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: block;
+        margin: 40px;
+    }
+
+    .my-resume-title h1{
+        width: 100%;
+        font-size: 2rem;
+        letter-spacing: -2px;
+    }
+   
+    .my-resume-menu {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
 }
