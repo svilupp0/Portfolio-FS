@@ -82,7 +82,7 @@ body header{
 header::before{
     position: absolute;
     content: "";
-    background-image: url(../img/osteopathic-doctor-checking-female-patient-s-leg-movement.jpg);
+    background-image: url(img/foto-sfondo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,10 +157,11 @@ h1{
     font-family: "Raleway", sans-serif;
 }
 
-.progetti section{
-    display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap; /* opzionale: fa andare le immagini a capo su schermi piccoli */
+.grid-progetti{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
 .progetti figcaption{
@@ -224,11 +225,11 @@ footer a{
         padding: 50px 0 20px 0;
     }
 
-    .progetti section {
-        margin: 0 auto;
+    .grid-progetti {
+        display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 30px;
+        align-items: center;
     }
 
     .progetti figure {
@@ -241,6 +242,12 @@ footer a{
     }
 
     .portfolio-curriculum ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+    .language ul {
+        margin: 0;
         flex-direction: column;
         align-items: center;
         gap: 5px;

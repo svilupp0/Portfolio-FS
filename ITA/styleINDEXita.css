@@ -82,7 +82,7 @@ body header{
 header::before{
     position: absolute;
     content: "";
-    background-image: url(../img/osteopathic-doctor-checking-female-patient-s-leg-movement.jpg);
+    background-image: url(../img/foto-sfondo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
