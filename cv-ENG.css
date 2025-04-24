@@ -48,13 +48,21 @@ body{
 .hobby{
     padding: 5%;
     text-align: justify;
-    font-size: clamp(1rem, 1.4vw, 1.6rem);
+    font-size: 22px;
     font-family: "Raleway", sans-serif;
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
     font-style: italic;
 }
 
+hr {
+    display: block;
+    border: none;
+    border-top: 2px solid rgb(44, 44, 138);
+    margin: 1em 0;
+    height: 0;
+}
+  
 main{
     margin: 70px auto;
     display: flex;
@@ -140,12 +148,13 @@ footer a{
     }
 
     .portfolio-curriculum ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        gap: 5px;
+        gap: 15px;
     }
     .hobby{
-        font-size: 25px;
+        width: 90%;
+        font-size: 17px;
         padding: 10px 0;
         letter-spacing: 1px;
     }
