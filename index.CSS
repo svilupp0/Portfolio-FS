@@ -1,3 +1,8 @@
+:root{
+    --colore-principale-scritte: rgb(2, 0, 99);
+    --font-principale: "Raleway", sans-serif;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -28,7 +33,7 @@ html, body {
     text-decoration: none;
     padding: 2%;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    font-family: var(--font-principale);
 }
 
 .active-language {
@@ -56,7 +61,7 @@ html, body {
     text-decoration: none;
     padding: 2%;
     text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+    font-family: var(--font-principale);
 }
 
 .active {
@@ -100,21 +105,20 @@ h1{
     padding: 3% 0;
     font-size: clamp(1.5rem, 2.8vw, 3rem);
     text-align: center;
-    color: rgb(2, 0, 99);
-    font-family: "Raleway", sans-serif;
+    color: var(--colore-principale-scritte);
+    font-family: var(--font-principale);
     font-weight: 900;
     letter-spacing: -2px;
 }
 
 .titolo{
-    font-size: clamp(1rem, 1.5vw, 2rem);
-    max-width: 40%;
+    font-size: 2rem;
 }
 
 .foto_profilo{
     margin-left: 30px;
     border-style: solid;
-    border-color: rgb(2, 0, 99);
+    border-color: var(--colore-principale-scritte);
     border-radius: 50%;
     width: 15vw;
     max-width: 100%; 
@@ -133,14 +137,14 @@ h1{
     padding: 5%;
     text-align: justify;
     font-size: clamp(1rem, 1.4vw, 1.6rem);
-    font-family: "Raleway", sans-serif;
+    font-family: var(--font-principale);
     max-width: 40%;
     margin: 0 auto;
 }
 
 .material-icons{
     text-decoration: none;
-    color: rgb(2, 0, 99);
+    color: var(--colore-principale-scritte);
 }
 
 .progetti {
@@ -153,21 +157,22 @@ h1{
     margin: 200px auto 40px auto;
     font-size: clamp(1.2rem, 2vw, 2.5rem);
     text-align: center;
-    color: rgb(2, 0, 99);
-    font-family: "Raleway", sans-serif;
+    color: var(--colore-principale-scritte);
+    font-family: var(--font-principale);
 }
 
 .grid-progetti{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 30%);
     justify-content: space-evenly;
     justify-items: center;
+    flex-wrap: wrap;
 }
 
 .progetti figcaption{
     text-align: center;
-    color: rgb(2, 0, 99);
-    font-family: "Raleway", sans-serif;
+    color: var(--colore-principale-scritte);
+    font-family: var(--font-principale);
     font-size: clamp(0.8rem, 0.9vw, 1rem);
 }
 
@@ -177,20 +182,21 @@ footer {
 }
 
 footer ul{
+    display: flex;
+    flex-direction: row;
     list-style: none;
     padding: 0;
+    gap: 15px;
+    margin: 0;
 }
 
 footer a{
-    color: rgb(18, 18, 126);
-    font-weight: 600;
+    color: var(--colore-principale-scritte);
 }
 
-.foto_linkedin{
-    border-radius: 50%;
-    width: 40px;
-    max-width: 100%; 
-    height: auto;
+address{
+    font-family: var(--font-principale);
+    color: var(--colore-principale-scritte);
 }
 
 @media (max-width: 768px) {
@@ -200,7 +206,7 @@ footer a{
     }
 
     .titolo {
-        max-width: 80%;
+        max-width: 85%;
         font-size: 1.2rem;
     }
 
@@ -226,14 +232,16 @@ footer a{
     }
 
     .grid-progetti {
-        display: flex;
-        flex-direction: column;
         gap: 30px;
-        align-items: center;
     }
 
     .progetti figure {
         margin: 0;
+        width: 60%;
+    }
+
+    .progetti img {
+        width: 100%;
     }
 
     .intestazione {
@@ -252,7 +260,12 @@ footer a{
         align-items: center;
         gap: 5px;
     }
-    footer {
-        font-size: 0.9rem;
+    footer ul{
+        font-size: 17px;
+        gap: 10px;
     }
-}
+    
+    footer address{
+        font-size: 17px;
+    }
+    }
