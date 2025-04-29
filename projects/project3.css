@@ -1,0 +1,63 @@
+:root{
+    --colore-principale-scritte: rgb(2, 0, 99);
+    --font-principale: "Raleway", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 5px solid var(--colore-principale-scritte);
+}
+
+header h1{
+    margin: 0;
+    padding: 100px;
+    color: var(--colore-principale-scritte);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main{
+    background-color: rgb(85, 131, 143);
+    margin: 0 auto;
+    text-align: justify;
+    width: 80%;
+}
+
+main h2{
+    margin: 0;
+    padding: 50px;
+}
+
+main p{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 0 10px;
+    margin-top: auto;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+    margin: 0;
+}
+
+footer a{
+    color: var(--colore-principale-scritte);
+}
+
+address{
+    font-family: var(--font-principale);
+    color: var(--colore-principale-scritte);
+}

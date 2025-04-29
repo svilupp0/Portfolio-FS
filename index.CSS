@@ -81,7 +81,6 @@ body header{
     margin: 0 auto;
     position: relative;
     height: auto;
-    text-align: center;
 }
 
 header::before{
@@ -111,69 +110,63 @@ h1{
     letter-spacing: -2px;
 }
 
-.titolo{
-    font-size: 2rem;
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: 
+        "foto titolo"
+        "foto citazione"
+    ;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
 }
-
 .foto_profilo{
-    margin-left: 30px;
     border-style: solid;
     border-color: var(--colore-principale-scritte);
     border-radius: 50%;
-    width: 15vw;
-    max-width: 100%; 
-    height: auto;
+    width: 15rem;
+    grid-area: foto;
 }
-
-.container {
-    display: flex;
-    align-items: center;  /* Allinea verticalmente */
-    justify-content: center; /* Centra orizzontalmente */
-    text-align: center; /* Centra il testo */
-    gap: 20px; /* Distanza tra immagine e testo */
-}
-
-#citazione{
-    padding: 5%;
-    text-align: justify;
-    font-size: clamp(1rem, 1.4vw, 1.6rem);
+.titolo{
+    grid-area: titolo;
+    font-size: 2rem;
     font-family: var(--font-principale);
-    max-width: 40%;
-    margin: 0 auto;
+}
+.citazione{
+    width: 90%;
+    grid-area: citazione;
+    font-size: 1.3rem;
+    font-family: var(--font-principale);
 }
 
-.material-icons{
-    text-decoration: none;
+.progetti h2{
+    margin: 100px auto 40px auto;
+    font-size: 1.8rem;
+    text-align: center;
     color: var(--colore-principale-scritte);
+    font-family: var(--font-principale);
 }
 
-.progetti {
-    margin: 0 auto;
+.flex-progetti{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.progetti figcaption{
+    text-align: center;
     width: 100%;
 }
 
-
-.progetti h2{
-    margin: 200px auto 40px auto;
-    font-size: clamp(1.2rem, 2vw, 2.5rem);
-    text-align: center;
+.flex-progetti a{
+    text-decoration: none;
     color: var(--colore-principale-scritte);
     font-family: var(--font-principale);
-}
-
-.grid-progetti{
-    display: flex;
-    grid-template-columns: repeat(3, 30%);
-    justify-content: space-evenly;
-    justify-items: center;
-    flex-wrap: wrap;
-}
-
-.progetti figcaption{
-    text-align: center;
-    color: var(--colore-principale-scritte);
-    font-family: var(--font-principale);
-    font-size: clamp(0.8rem, 0.9vw, 1rem);
+    font-size: 1rem;
 }
 
 footer {
@@ -201,48 +194,27 @@ address{
 
 @media (max-width: 768px) {
     .container {
+        display: flex;
         flex-direction: column;
         gap: 10px;
-    }
-
-    .titolo {
-        max-width: 85%;
-        font-size: 1.2rem;
     }
 
     .foto_profilo {
         width: 40vw;
         margin-left: 0;
     }
-
-    #citazione {
-        max-width: 90%;
-        font-size: 1rem;
+    .titolo {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .citazione {
+        text-align: center;
+        font-size: 1.2rem;
     }
 
-    .progetti {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .progetti h2 {
-        margin: 0;
-        padding: 50px 0 20px 0;
-    }
-
-    .grid-progetti {
-        gap: 30px;
-    }
-
-    .progetti figure {
-        margin: 0;
-        width: 60%;
-    }
-
-    .progetti img {
-        width: 100%;
-    }
+    .progetti figcaption{
+        text-align: center;
+    } 
 
     .intestazione {
         align-items: center;
@@ -268,4 +240,4 @@ address{
     footer address{
         font-size: 17px;
     }
-    }
+}

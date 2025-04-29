@@ -1,3 +1,8 @@
+:root{
+    --colore-principale-scritte: rgb(2, 0, 99);
+    --font-principale: "Raleway", sans-serif;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -50,9 +55,11 @@ body{
     text-align: justify;
     font-size: 22px;
     font-family: "Raleway", sans-serif;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1.4;
 }
 
 hr {
@@ -78,6 +85,7 @@ main{
     font-family: "Raleway", sans-serif;
     font-size: clamp(3rem, 1.4vw, 1.6rem);
     letter-spacing: -2px;
+    margin: 0;
 }
 
 .elenco-my-resume{
@@ -124,20 +132,21 @@ footer {
 }
 
 footer ul{
+    display: flex;
+    flex-direction: row;
     list-style: none;
     padding: 0;
+    gap: 15px;
+    margin: 0;
 }
 
 footer a{
-    color: rgb(18, 18, 126);
-    font-weight: 600;
+    color: var(--colore-principale-scritte);
 }
 
-.foto_linkedin{
-    border-radius: 50%;
-    width: 40px;
-    max-width: 100%; 
-    height: auto;
+address{
+    font-family: var(--font-principale);
+    color: var(--colore-principale-scritte);
 }
 
 @media (max-width: 768px) {
@@ -170,6 +179,7 @@ footer a{
     }
 
     .my-resume-title h1{
+        margin: 20px;
         font-size: 38px;
         letter-spacing: -3px;
     }
