@@ -112,17 +112,17 @@ h1{
 
 .container {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 25% 75%;
     grid-template-rows: 30% 70%;
     grid-template-areas: 
         "foto titolo"
         "foto citazione"
     ;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
     align-items: center;
-    justify-items: center;
-    padding: 50px;
+    gap: 20px;
 }
 .foto_profilo{
     border-style: solid;
@@ -130,6 +130,7 @@ h1{
     border-radius: 50%;
     width: 15rem;
     grid-area: foto;
+    justify-self: end;
 }
 .titolo{
     grid-area: titolo;
@@ -137,10 +138,11 @@ h1{
     font-family: var(--font-principale);
 }
 .citazione{
-    width: 90%;
+    width: 100%;
     grid-area: citazione;
     font-size: 1.3rem;
     font-family: var(--font-principale);
+    text-align: justify;
 }
 
 .progetti h2{

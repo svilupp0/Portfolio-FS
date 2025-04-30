@@ -51,15 +51,23 @@ body{
 }
 
 .hobby{
-    padding: 5%;
+    width: 65%;
+    display: flex;
+    gap: 30px;
+    margin: 50px auto;
+}
+.hobby p{
+    width: 50%;
+    display: flex;
     text-align: justify;
     font-size: 22px;
     font-family: "Raleway", sans-serif;
-    width: 70%;
-    margin: 0 auto;
     font-style: italic;
     letter-spacing: 2px;
     line-height: 1.4;
+}
+.hobby img{
+    width: 50%;
 }
 
 hr {
@@ -95,6 +103,7 @@ main{
 }
 
 .my-resume-menu {
+    margin: 20px;
     width: 50%;
 }
 

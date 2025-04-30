@@ -20,6 +20,9 @@ header h1{
     text-align: center;
     text-transform: uppercase;
 }
+nav {
+    margin: 10px;
+}
 
 main{
     background-color: rgb(85, 131, 143);
