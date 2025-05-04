@@ -60,11 +60,8 @@ body{
 .hobby p{
     width: 50%;
     display: flex;
-    text-align: justify;
     font-size: 22px;
     font-family: "Raleway", sans-serif;
-    font-style: italic;
-    letter-spacing: 2px;
     line-height: 1.4;
 }
 .hobby img{
@@ -185,7 +182,7 @@ address img{
     }
     .hobby{
         margin: 50px auto;
-        width: 80%;
+        width: 90%;
         display: flex;
         flex-direction: column;
     }
@@ -193,7 +190,7 @@ address img{
         padding: 0;
         margin: 0;
         width: 100%;
-        font-size: 17px;
+        font-size: 1rem;
         letter-spacing: 1px;
     }
     .hobby img{
@@ -212,7 +209,7 @@ address img{
 
     .my-resume-title h1{
         margin: 20px;
-        font-size: 38px;
+        font-size: 1.8rem;
         letter-spacing: -3px;
     }
     
@@ -221,7 +218,7 @@ address img{
     }
 
     .elenco-my-resume{
-        font-size: 25px;
+        font-size: 1.3rem;
     }
     
     .my-resume-menu ul{
