@@ -44,6 +44,7 @@ body{
 
 .active {
     color: rgb(104, 104, 134) !important;
+    background-color: rgb(10, 0, 96);
 }
 
 .portfolio-curriculum a:hover {
@@ -136,7 +137,7 @@ main{
 }
 
 footer {
-    padding: 0 10px;
+    padding: 20px;
     margin-top: auto;
 }
 
@@ -144,8 +145,8 @@ footer ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding: 0;
-    gap: 15px;
+    padding: 5px;
+    gap: 20px;
     margin: 0;
 }
 
@@ -154,8 +155,20 @@ footer a{
 }
 
 address{
+    display: flex;
+    align-items: center;
+}
+address p{
+    margin: 0;
     font-family: var(--font-principale);
     color: var(--colore-principale-scritte);
+}
+
+address img{
+    border: 1px solid var(--colore-principale-scritte);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -171,16 +184,26 @@ address{
         gap: 15px;
     }
     .hobby{
-        width: 90%;
+        margin: 50px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hobby p{
+        padding: 0;
+        margin: 0;
+        width: 100%;
         font-size: 17px;
-        padding: 10px 0;
         letter-spacing: 1px;
+    }
+    .hobby img{
+        width: 100%;
     }
 
     main{
+        max-width: 100%;
         flex-direction: column;
         align-items: center;
-        display: block;
         margin: 30px;
     }
     .my-resume-title{
@@ -214,8 +237,13 @@ address{
     .science_production{
         font-size: 18px;
     }
+
+    footer ul{
+        font-size: 17px;
+        gap: 10px;
+    }
     
-    footer {
-        font-size: 0.9rem;
+    footer address{
+        font-size: 17px;
     }
 }
