@@ -10,47 +10,18 @@ html, body {
 }
 
 .intestazione{
-    padding: 0 10px;
-    background-color: rgb(44, 44, 138) ;
+    background-color: rgb(44, 44, 138);
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
-.language {
-    padding: 10px;
-    font-size: clamp(0.8rem, 1vw, 1.2rem);
-}
-
-.language ul{
-    padding: 0;
-    gap: 15px;
-    display: flex;
-    list-style: none;
-}
-
-.language li a{
-    color: rgb(255, 235, 210);
-    text-decoration: none;
-    padding: 2%;
-    text-transform: uppercase;
-    font-family: var(--font-principale);
-}
-
-.active-language {
-    color: rgb(104, 104, 134) !important;
-    background-color: rgb(10, 0, 96);
-}
-
-.language a:hover {
-    color: rgb(104, 104, 134);
-}
- 
 .portfolio-curriculum {
-    padding: 10px;
+    padding: 12px;
     font-size: clamp(0.8rem, 1vw, 1.2rem);
 }
 
 .portfolio-curriculum ul{
+    margin: 0;
     padding: 0;
     gap: 20px;
     display: flex;
@@ -60,7 +31,7 @@ html, body {
 .portfolio-curriculum li a{
     color: rgb(255, 235, 210);
     text-decoration: none;
-    padding: 2%;
+    padding: 12px;
     text-transform: uppercase;
     font-family: var(--font-principale);
 }
@@ -198,6 +169,7 @@ footer a{
 address{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 address p{
     margin: 0;
