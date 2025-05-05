@@ -1,6 +1,7 @@
 :root{
-    --colore-principale-scritte: rgb(2, 0, 99);
+    --colore-principale-scritte: rgb(0, 0, 25);
     --font-principale: "Raleway", sans-serif;
+    --backg-color-light: rgb(110, 143, 192);
 }
 
 html, body {
@@ -10,13 +11,13 @@ html, body {
 }
 
 body{
-    background-color: rgb(85, 131, 143);
+    background-color: var(--backg-color-light);
     display: flex;
     flex-direction: column;
 }
 
 .intestazione{
-    background-color: rgb(44, 44, 138);
+    background-color: rgb(0, 0, 100);
     display: flex;
     justify-content: right;
 }
@@ -90,14 +91,15 @@ main{
 .my-resume-title h1{
     font-family: "Raleway", sans-serif;
     font-size: clamp(3rem, 1.4vw, 1.6rem);
-    letter-spacing: -2px;
     margin: 0;
+    color: var(--colore-principale-scritte);
 }
 
 .elenco-my-resume{
     font-family: "Raleway", sans-serif;
     font-size: 35px;
     cursor: pointer;
+    color: var(--colore-principale-scritte);
 }
 
 .my-resume-menu {
@@ -109,28 +111,32 @@ main{
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     list-style-type: circle;
+    color: var(--colore-principale-scritte);
 }
 .my-resume-menu p{
+    color: var(--colore-principale-scritte);
     font-family: "Raleway", sans-serif;
     font-size: 20px;
 }
 
 .my-resume-menu summary:hover{
-    color: rgb(18, 18, 126);
+    color: rgb(0, 0, 100);
 }
 
 .sotto-summary{
     font-family: "Raleway", sans-serif;
     font-size: 25px;
+    color: var(--colore-principale-scritte);
     padding: 0px 50px;
 }
 .science_production{
     font-family: "Raleway", sans-serif;
+    color: var(--colore-principale-scritte);
     font-size: 15px;
 }
 
 .link-production{
-    color: rgb(18, 18, 126);
+    color: rgb(0, 0, 100);
 }
 
 footer {
@@ -191,7 +197,6 @@ address img{
         margin: 0;
         width: 100%;
         font-size: 1rem;
-        letter-spacing: 1px;
     }
     .hobby img{
         width: 100%;
@@ -210,7 +215,6 @@ address img{
     .my-resume-title h1{
         margin: 20px;
         font-size: 1.8rem;
-        letter-spacing: -3px;
     }
     
     .my-resume-menu{
