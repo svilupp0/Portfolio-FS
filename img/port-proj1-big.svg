@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Adobe Illustrator 29.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2560px" height="1440px" viewBox="0 0 2560 1440" style="enable-background:new 0 0 2560 1440;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'SourceSansPro-Regular';}
+	.st3{font-size:74.0029px;}
+	.st4{opacity:0.302;fill:none;stroke:#F7A6D7;stroke-miterlimit:10;}
+	.st5{opacity:0.302;fill:none;stroke:#F3A6D5;stroke-miterlimit:10;stroke-dasharray:5,4,5,4,5,4;}
+	.st6{fill:none;stroke:#F3A6D5;stroke-miterlimit:10;}
+	.st7{opacity:0.302;fill:none;stroke:#F1A6D4;stroke-miterlimit:10;}
+	.st8{opacity:0.302;fill:none;stroke:#F5A6D6;stroke-miterlimit:10;stroke-dasharray:5,4,5,4,5,4;}
+	.st9{fill:none;stroke:#F5A6D6;stroke-miterlimit:10;}
+	.st10{font-size:37.0014px;}
+	.st11{font-size:26.6802px;}
+	.st12{font-size:37.0015px;}
+	.st13{font-size:37.0016px;}
+	.st14{fill:#4F6AB3;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+	.st15{opacity:0.2;fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st16{font-family:'SourceSansPro-It';}
+	.st17{opacity:0.4;fill:#AE00FF;}
+	.st18{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st19{opacity:0.4;fill:#FF00EA;}
+	.st20{opacity:0.4;fill:#00FFD4;}
+	.st21{opacity:0.4;fill:#E3F700;}
+	.st22{opacity:0.4;fill:#D500FF;}
+	.st23{opacity:0.4;fill:#00B7FF;}
+	.st24{opacity:0.4;fill:#00E645;}
+	.st25{font-size:49.3352px;}
+</style>
+<g>
+	<rect x="117.91" y="72.71" class="st0" width="1097.86" height="67.94"/>
+	<text transform="matrix(1 0 0 1 117.9136 125.4023)" class="st1 st2 st3">Shoulder kinematics data</text>
+	<rect x="1344.1" y="72.71" class="st0" width="1077.4" height="212.81"/>
+	<text transform="matrix(1 0 0 1 1368.3184 125.4023)" class="st1 st2 st3">Unsupervised learning techniques</text>
+	<g>
+		<line class="st4" x1="441.76" y1="264.29" x2="441.76" y2="697.1"/>
+		<line class="st5" x1="551.2" y1="341.02" x2="551.2" y2="773.84"/>
+		<line class="st5" x1="660.65" y1="421.25" x2="660.65" y2="854.06"/>
+		<line class="st4" x1="442.71" y1="697.1" x2="1261.64" y2="697.1"/>
+		<line class="st5" x1="551.2" y1="773.84" x2="984.01" y2="773.84"/>
+		<line class="st5" x1="660.65" y1="854.06" x2="1093.46" y2="854.06"/>
+		<line class="st6" x1="754.9" y1="493.88" x2="754.9" y2="926.69"/>
+		<line class="st6" x1="754.9" y1="926.69" x2="1187.71" y2="926.69"/>
+		<line class="st7" x1="441.76" y1="697.1" x2="754.9" y2="926.69"/>
+		<line class="st4" x1="441.76" y1="697.1" x2="136.34" y2="887.26"/>
+		<line class="st8" x1="551.2" y1="775.5" x2="245.78" y2="965.66"/>
+		<line class="st8" x1="660.65" y1="854.37" x2="355.23" y2="1044.54"/>
+		<line class="st9" x1="754.9" y1="926.69" x2="449.48" y2="1116.86"/>
+		<rect x="1139.51" y="654.32" class="st0" width="255.87" height="73.14"/>
+		<text transform="matrix(1 0 0 1 1139.5122 680.6689)" class="st1 st2 st10">Frontal</text>
+		<text transform="matrix(1 0 0 1 413.3418 315.312)"><tspan x="0" y="0" class="st1 st2 st11">L</tspan><tspan x="0" y="32.02" class="st1 st2 st11">o</tspan><tspan x="0" y="64.03" class="st1 st2 st11">n</tspan><tspan x="0" y="96.05" class="st1 st2 st11">g</tspan><tspan x="0" y="128.06" class="st1 st2 st11">i</tspan><tspan x="0" y="160.08" class="st1 st2 st11">t</tspan><tspan x="0" y="192.1" class="st1 st2 st11">u</tspan><tspan x="0" y="224.11" class="st1 st2 st11">d</tspan><tspan x="0" y="256.13" class="st1 st2 st11">i</tspan><tspan x="0" y="288.15" class="st1 st2 st11">n</tspan><tspan x="0" y="320.16" class="st1 st2 st11">a</tspan><tspan x="0" y="352.18" class="st1 st2 st11">l</tspan></text>
+		
+			<rect x="117.85" y="775.32" transform="matrix(0.848 -0.5299 0.5299 0.848 -392.8913 253.6152)" class="st0" width="255.87" height="73.14"/>
+		<text transform="matrix(0.848 -0.5299 0.5299 0.848 131.868 871.0202)" class="st1 st2 st12">Sagittal</text>
+		
+			<rect x="1189.45" y="1189.68" transform="matrix(0.5878 -0.809 0.809 0.5878 -530.2493 1532.1011)" class="st0" width="97.78" height="193.42"/>
+		<text transform="matrix(0.809 0.5878 -0.5878 0.809 1173.3506 1211.2976)" class="st1 st2 st13">Time</text>
+		<circle class="st14" cx="877.33" cy="725.12" r="9.69"/>
+		<circle class="st14" cx="843.87" cy="807.1" r="9.69"/>
+		<circle class="st14" cx="776.59" cy="773.83" r="9.69"/>
+		<circle class="st14" cx="780.69" cy="871.24" r="9.69"/>
+		<circle class="st14" cx="843.87" cy="845.71" r="9.69"/>
+		<circle class="st14" cx="671.24" cy="1043.38" r="9.69"/>
+		<circle class="st14" cx="818.37" cy="975.85" r="9.69"/>
+		<circle class="st14" cx="790.37" cy="1043.38" r="9.69"/>
+		<circle class="st14" cx="971.07" cy="1190.09" r="9.69"/>
+		<circle class="st14" cx="1031.24" cy="1295.38" r="9.69"/>
+		<circle class="st14" cx="1031.24" cy="855.4" r="9.69"/>
+		<circle class="st14" cx="971.07" cy="947.87" r="9.69"/>
+		<circle class="st14" cx="1040.93" cy="1108.2" r="9.69"/>
+		<circle class="st14" cx="961.38" cy="1053.07" r="9.69"/>
+		<circle class="st14" cx="1050.61" cy="1014.77" r="9.69"/>
+		<circle class="st14" cx="1004.56" cy="957.56" r="9.69"/>
+		<circle class="st14" cx="818.37" cy="1053.07" r="9.69"/>
+		<circle class="st14" cx="818.37" cy="880.93" r="9.69"/>
+		<circle class="st14" cx="1117.55" cy="930.82" r="9.69"/>
+		<circle class="st14" cx="1144.95" cy="921.13" r="9.69"/>
+		<circle class="st14" cx="1077.25" cy="1075.98" r="9.69"/>
+		<line class="st6" x1="754.9" y1="928.58" x2="1238.33" y2="1276.7"/>
+		<path class="st15" d="M880.61,997.24c-15.69-2.57-30.38-10.85-40.71-22.94c-5.34-6.26-9.74-13.66-16.77-17.93
+			c-10.82-6.57-25.87-3.47-34.76,5.54s-11.98,22.7-10.01,35.2c0.95,6.05,2.99,12.12,1.97,18.15c-1.52,9.02-9.36,15.6-12.7,24.11
+			c-6.38,16.28-34.37,4.92-51.13-2.82c-7.75-3.58-28.27-13.95-43.95-13.95c-16.35,0-24.04,29.39-27.01,45.46
+			c-2.3,12.43,2.83,20.37,5.52,24.77c9.17,14.95,102.11,91.73,112.66,105.74c18.26,24.23,40,47.96,68.91,57.17
+			c22.99,7.33,46.63,15,65.11,30.53c13.05,10.96,23.9,25.99,40.32,30.57c13.07,3.64,27.03-0.21,40.53,1.12
+			c16.04,1.58,30.47,10.36,46.2,13.84c15.73,3.48,35.86-1.07,40.84-16.39c2.84-8.76-0.32-18.51-5.65-26.02
+			c-5.33-7.51-12.63-13.33-19.33-19.65c-19.36-18.25-34.58-42.69-35.2-69.29c-0.5-21.55-2.35-43.3-9.11-63.77
+			c-6.76-20.46-18.8-39.71-36.5-52c-11.94-8.29-25.91-13.12-38.59-20.22c-12.68-7.1-24.73-17.51-28.24-31.61
+			c-1.82-7.32-2.17-14.93-2.55-22.46C890.12,1003.67,892.08,1000.32,880.61,997.24z"/>
+		<path class="st15" d="M875.53,685.36c-24.88,3.08-39.65,5.81-45.25,26.01c-0.74,2.68-2.67,4.96-5.21,6.06
+			c-24.52,10.61-53.98,1.68-78.95,11.27c-27.94,10.73-43.16,46.45-31.56,74.04c14.6,15.02,22.87,36.02,22.4,56.96
+			c-0.09,3.95-2.02,7.59-5.33,9.74c-49.11,31.94-90.1,76.27-118.07,127.74c-4.17,7.67-8.06,15.51-11.33,23.6
+			c-11.21,27.73,1.04,61.47,28.75,72.74c24.27,9.87,52.22,4.43,75.8-6.82c6.4-3.05,12.66-6.56,17.94-11.29
+			c17.45-15.64,21.67-42.05,38.55-58.29c12.59-12.12,30.57-16.89,47.96-18.64c5.11-0.51,10.24-0.8,15.37-1.04
+			c22.01-1.01,40.61-17.08,44.13-38.83c0.79-4.91,1.51-9.82,2.15-14.75c0.5-3.9,0.95-7.94-0.24-11.68
+			c-1.12-3.54-3.59-6.46-5.85-9.41c-12.29-16.07-19.59-35.9,18.72-102.25c7.65-10.94,3.55-25.87-0.75-38.51
+			c-4.3-12.64-8.22-27.68-0.32-38.45c3.74-5.1,9.58-8.27,13.77-13.01c6.23-7.07,8-16.46,8.15-26.1
+			c0.18-11.59-9.65-21.05-21.21-20.19C882.18,684.47,878.97,684.86,875.53,685.36z"/>
+		<circle class="st14" cx="786.27" cy="1117.89" r="9.69"/>
+		<circle class="st14" cx="877.33" cy="1137.27" r="9.69"/>
+		<circle class="st14" cx="853.56" cy="1190.09" r="9.69"/>
+		<circle class="st14" cx="939.9" cy="1117.89" r="9.69"/>
+		<circle class="st14" cx="933.4" cy="1267.01" r="9.69"/>
+		<circle class="st14" cx="843.87" cy="1161.37" r="9.69"/>
+		<circle class="st14" cx="887.02" cy="1276.7" r="9.69"/>
+		<path class="st15" d="M1138.33,828.7c-5.47-0.94-10.96-1.62-16.79-2.21c-15.41-4.93-30.34-9.71-45.75-14.64
+			c-25.44-14.42-59.08-10.07-80.85,8.84c-29.99,26.04-33.45,71.29-55.6,104.26c-7.48,11.14-17.03,20.74-25.25,31.34
+			c-17.34,22.35-34.67,44.71-52.01,67.06c-2.94,3.79-5.89,7.6-8.05,11.88c-5.27,10.42-5.4,22.58-5.41,34.26
+			c-0.03,21.55-0.06,43.16,2.3,64.58c1.46,13.22,8.95,25.02,19.91,32.55l40.16,27.56c6.35,4.36,17.48,10.02,24.81,12.39
+			c7.29,2.36,15.01,4.01,22.69,3.54c9.31-0.58,17.92-5.03,25.88-9.89c29.16-17.78,54.06-42.14,84.11-58.36
+			c7.01-3.79,14.37-7.17,20.31-12.48c6.72-6.01,11.19-14.08,15.53-21.98l11.76-21.43c3.64-6.64,4.79-14.31,3.6-21.79
+			c-7.43-46.63,14.46-91.13,41.05-128.98c6.39-9.1,13.15-18.09,17.4-28.36c1.96-4.73,3.35-9.69,4.24-14.73
+			c0.41-2.35,0.71-4.72,0.9-7.09C1185.42,857.49,1165.52,833.39,1138.33,828.7z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 1633.8643 1071.9619)"><tspan x="0" y="0" class="st1 st16 st11">Serena, R. S., Hinterwimmer, F., &amp; Burgkart, R. The Use of Artificial Intelli</tspan><tspan x="129.26" y="32.02" class="st1 st16 st11">gence and Wearable IMUs in Medicine: A Systematic Review.</tspan></text>
+		<g>
+			<g>
+				<circle class="st17" cx="1694.3" cy="803.11" r="130.59"/>
+				<circle class="st18" cx="1694.3" cy="803.11" r="130.59"/>
+			</g>
+			<g>
+				<circle class="st19" cx="1893.17" cy="803.11" r="130.59"/>
+				<circle class="st18" cx="1893.17" cy="803.11" r="130.59"/>
+			</g>
+			<g>
+				<circle class="st20" cx="2092.04" cy="803.11" r="130.59"/>
+				<circle class="st18" cx="2092.04" cy="803.11" r="130.59"/>
+			</g>
+			<g>
+				<circle class="st21" cx="2290.91" cy="803.11" r="130.59"/>
+				<circle class="st18" cx="2290.91" cy="803.11" r="130.59"/>
+			</g>
+			<g>
+				<circle class="st22" cx="1786.07" cy="672.51" r="130.59"/>
+				<circle class="st18" cx="1786.07" cy="672.51" r="130.59"/>
+			</g>
+			<g>
+				<circle class="st23" cx="1984.94" cy="672.51" r="130.59"/>
+				<circle class="st18" cx="1984.94" cy="672.51" r="130.59"/>
+			</g>
+			<g>
+				<circle class="st24" cx="2183.81" cy="672.51" r="130.59"/>
+				<circle class="st18" cx="2183.81" cy="672.51" r="130.59"/>
+			</g>
+			<rect x="1642.44" y="871.12" class="st0" width="132.09" height="43.53"/>
+			<text transform="matrix(1 0 0 1 1642.4443 906.25)" class="st1 st2 st25">SVM</text>
+			<rect x="1867.17" y="871.12" class="st0" width="132.09" height="43.53"/>
+			<text transform="matrix(1 0 0 1 1867.167 906.25)" class="st1 st2 st25">RF</text>
+			<rect x="1934.72" y="565.7" class="st0" width="132.09" height="43.53"/>
+			<text transform="matrix(1 0 0 1 1934.7236 600.8223)" class="st1 st2 st25">MLP</text>
+			<rect x="2125.25" y="565.7" class="st0" width="132.09" height="43.53"/>
+			<text transform="matrix(1 0 0 1 2125.25 600.8223)" class="st1 st2 st25">LSTM</text>
+			<rect x="2245.58" y="871.12" class="st0" width="132.09" height="43.53"/>
+			<text transform="matrix(1 0 0 1 2245.5811 906.25)" class="st1 st2 st25">CNN</text>
+			<rect x="2045.03" y="871.12" class="st0" width="132.09" height="43.53"/>
+			<text transform="matrix(1 0 0 1 2045.0342 906.25)" class="st1 st2 st25">kNN</text>
+			<rect x="1755.01" y="566.85" class="st0" width="132.09" height="43.53"/>
+			<text transform="matrix(1 0 0 1 1755.0166 601.9736)" class="st1 st2 st25">RL</text>
+		</g>
+	</g>
+</g>
+</svg>

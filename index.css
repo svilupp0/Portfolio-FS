@@ -139,7 +139,7 @@ h1{
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(245, 209, 214);
     border-radius: 10px;
 }
 
@@ -314,9 +314,6 @@ address img{
         gap: 30px;
     }
 
-    .flex-skills figure{
-
-    }
     .flex-skills img{
         max-width: 100%;
     } 
