@@ -153,7 +153,16 @@ h1{
 
 .flex-progetti img {
     width: 100%;
+    transform: scale(1);
+    transition: transform 1s;
 }
+.flex-progetti img:hover {
+    transform: scale(1.5);
+}
+.img-prog{
+    overflow: hidden;
+}
+
 .flex-progetti figcaption{
     margin: 10px;
     font-weight: 700;
