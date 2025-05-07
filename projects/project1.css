@@ -10,14 +10,14 @@ html, body {
     padding: 0;
 }
 
-.pima-fila{
-    position: relative;
+.intestazione{
+    background-color: rgb(101, 98, 148);
 }
 
-.prima-fila a{
-    position: absolute;
-    left: 0;
-    top: 50px;
+.intestazione a{
+    text-decoration: none;
+    display: flex;
+    padding: 6px;
     color: var(--colore-principale-scritte);
 }
 
@@ -120,18 +120,15 @@ address img{
         width: 100%;
         margin: 0;
     }
-    main h2{
-        text-align: center;
-        font-size: 1.3rem;
-    }
-    main p{
+    .project-description p{
         width: 100%;
-        padding: 0;
-        font-size: 1rem;
+        box-sizing: border-box;
+        padding: 5px;
+        font-size: 0.9rem;
+        margin-top: 20px;
     }
 
     address{
         gap: 10px;
     }
-    
 }
