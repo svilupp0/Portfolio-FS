@@ -189,7 +189,7 @@ h1{
 }
 
 .skills h2{
-    margin: 50px auto 10px auto;
+    margin: 100px auto 30px auto;
     font-size: 1.8rem;
     text-align: center;
     color: var(--colore-principale-scritte);
@@ -198,7 +198,7 @@ h1{
 
 .flex-skills{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -211,6 +211,8 @@ h1{
 
 .flex-skills img{
     padding: 5px;
+    max-width: 160px;
+    height: 160px;
 }
 
 .flex-skills figcaption{
@@ -332,17 +334,17 @@ address img{
     .flex-skills{
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
         align-items: flex-start;
     }
 
     .flex-skills figure{
         width: 100%;
+        min-width: 160px;
     }
 
     .flex-skills img{
-        max-width: 100%;
         padding: 0;
         margin: 0;
     } 

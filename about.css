@@ -197,6 +197,7 @@ address img{
         margin: 0;
         width: 100%;
         font-size: 1rem;
+        line-height: 25px;
     }
     .hobby img{
         width: 100%;
