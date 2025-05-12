@@ -119,6 +119,7 @@ h1{
     font-size: 2rem;
     font-family: var(--font-principale);
     margin-bottom: 0;
+    font-weight: 500;
 }
 .citazione{
     width: 100%;
