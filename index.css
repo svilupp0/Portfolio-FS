@@ -146,12 +146,15 @@ h1{
     justify-content: center;
 }
 .flex-progetti figure{
-    margin: 0;
-    box-sizing: border-box;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(245, 209, 214);
     border-radius: 10px;
     overflow: hidden;
+    margin: 0;
+    width: 33%;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .flex-progetti a{
@@ -171,6 +174,7 @@ h1{
 }
 .img-prog{
     overflow: hidden;
+    width: 100%;
 }
 
 .flex-progetti figcaption{
@@ -209,7 +213,7 @@ h1{
 .flex-skills{
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .flex-skills figure{
