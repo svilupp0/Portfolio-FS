@@ -1,0 +1,79 @@
+.portfolio-curriculum {
+    padding: 12px;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    ul {
+        margin: 0;
+        padding: 0;
+        gap: 20px;
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        align-items: center;
+        li {
+            a{
+                color: rgb(255, 235, 210);
+                text-decoration: none;
+                padding: 12px;
+                text-transform: uppercase;
+                font-family: var(--font-principale);
+                &:hover {
+                    color: rgb(104, 104, 134);
+                }
+            }
+        }
+    }
+}
+
+.fonte-img-background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.6rem;
+    a {
+        text-decoration: none;
+    }
+}
+
+.flex-progetti{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    figure{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(245, 209, 214);
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0;
+        width: 33%;
+        justify-content: space-between;
+        align-items: flex-start;
+        img {
+            width: 100%;
+            transform: scale(1);
+            transition: transform 1s;
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+        figcaption{
+            margin: 10px;
+            font-weight: 700;
+        }
+        p{
+            font-family: var(--font-principale);
+            font-size: 0.8rem;
+            margin: 10px;
+            width: 90%;
+            text-align: left;
+        }
+        button{
+            font-family: var(--font-principale);
+            margin: 10px;
+            padding: 0;
+            a{
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

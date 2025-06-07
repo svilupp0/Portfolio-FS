@@ -1,0 +1,103 @@
+.portfolio-curriculum {
+  padding: 12px;
+  font-size: clamp(0.8rem, 1vw, 1.2rem);
+}
+.portfolio-curriculum ul {
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+.portfolio-curriculum ul li a {
+  color: rgb(255, 235, 210);
+  text-decoration: none;
+  padding: 12px;
+  text-transform: uppercase;
+  font-family: var(--font-principale);
+}
+.portfolio-curriculum ul li a:hover {
+  color: rgb(104, 104, 134);
+}
+
+.hobby {
+  width: 70%;
+  display: flex;
+  gap: 10px;
+  margin: 50px auto;
+}
+.hobby p {
+  width: 50%;
+  display: flex;
+  font-size: 1.3rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.3;
+}
+.hobby img {
+  width: 50%;
+}
+
+.my-resume-title {
+  width: 50%;
+}
+.my-resume-title h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(3rem, 1.4vw, 1.6rem);
+  margin: 0;
+  color: var(--colore-principale-scritte);
+}
+
+.my-resume-menu {
+  margin: 20px;
+  width: 50%;
+}
+.my-resume-menu ul {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  list-style-type: circle;
+  color: var(--colore-principale-scritte);
+}
+.my-resume-menu p {
+  color: var(--colore-principale-scritte);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.my-resume-menu summary:hover {
+  color: rgb(0, 0, 100);
+}
+
+footer {
+  padding: 20px;
+  margin-top: auto;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 5px;
+  gap: 20px;
+  margin: 0;
+}
+footer ul a {
+  color: var(--colore-principale-scritte);
+}
+footer address {
+  display: flex;
+  align-items: center;
+}
+footer address p {
+  margin: 0;
+  font-family: var(--font-principale);
+  color: var(--colore-principale-scritte);
+}
+footer address img {
+  border: 1px solid var(--colore-principale-scritte);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=style-about.css.map */
